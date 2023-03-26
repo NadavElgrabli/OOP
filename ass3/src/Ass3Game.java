@@ -1,0 +1,16 @@
+/******************************
+ * Name: Nadav Elgrabli.
+ * ID: 316082791
+ *****************************/
+
+public class Ass3Game {
+    /**
+     * Main class that runs game using initialize and run methods.
+     * @param args arguements of string.
+     */
+    public static void main(String[] args) {
+        Game game = new Game();
+        game.initialize();
+        game.run();
+    }
+}
